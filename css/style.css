@@ -1,0 +1,58 @@
+body {
+    background-color: #222222;
+}
+
+* {
+    color: white !important;
+}
+
+#content {
+    height: 100vh;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#comoFunciona {
+    height: 100vh;
+    background-image: url("../img/celular.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px !important;
+}
+
+#comoFunciona, .col-md-6 {
+    padding-right: 0px;
+}
+
+#comoFunciona .numLista {
+    background-color: white;
+    color: black !important;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#formulario {
+    height: 100vh;
+    background-image: url("../img/celularilustrado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+#formulario, .col-md-6 {
+    padding-left: 0px;
+}
+
+.ipt{
+    color: #505050 !important;
+} 
